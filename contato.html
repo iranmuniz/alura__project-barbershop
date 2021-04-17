@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contatos - Barberia Alura</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <h1><img src="img/logo.png" alt="Logo da Barberia Alura"></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <form class="" action="index.html" method="post">
+        <label for="nomesobrenome">Nome</label>
+          <input type="text" name="" value="" id="nomesobrenome" class="input-padrao" required>
+        <label for="email">Email</label>
+          <input type="text" name="" value="" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+        <label for="telefone">Telefone</label>
+          <input type="text" name="" value="" id="telefone" class="input-padrao" placeholder="(XX)XXXXX-XXXX" required>
+        <label for="mensagem"></label>
+          <textarea name="name" rows="10" cols="30" id="mensagem" class="input-padrao" required></textarea>
+          <fieldset>
+            <legend>Como prefere o nosso contato?</legend>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+          </fieldset>
+          <fieldset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select class="" name="">
+              <option value="">Manhã</option>
+              <option value="">Tarde</option>
+              <option value="">Noite</option>
+            </select>
+          </fieldset>
+          <label class="checkbox"><input type="checkbox" name="" value="" checked>Gostaria de receber nossas novidades por e-mail?</label>
+        <input type="submit" name="" value="Enviar formulário" class="enviar">
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>8h ~ 20h</td>
+          </tr>
+        </tbody>
+      </table>
+      <section class="mapa">
+        <h3 class="titulo-principal">Nosso estabelecimento</h3>
+
+        <p>Nosso estabelecimento está localizado no coração da cidade</p>
+
+        <div class="mapa-conteudo">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4485981309062!2d-46.63465338553189!3d-23.58823936846939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1610806219461!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img src="img/logo-branco.png" alt="Logo da Barberia Alura">
+      <p class="copyright">&copy; Copyright Barberia Alura - 2020</p>
+    </footer>
+  </body>
+</html>
