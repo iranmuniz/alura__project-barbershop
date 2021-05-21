@@ -7,7 +7,7 @@
 <p>Utilizando um tema como Barbearia podemos ter a noção de elementos fundamentais 
 para elaborar o corpo do site e a estilização que dá a aparência que o site precisa ter</p>
 
-### Para o primeiro passo é precido de apenas coragem
+### Para o primeiro passo é preciso de apenas coragem
 
 > Com este projeto, já é possível fazer o entendimento de saparação de páginas, divisão de arquivos, organição e semântica.
 
